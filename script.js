@@ -21,3 +21,4 @@ function showNextFact() {
 
 // Change fact every 3 seconds
 setInterval(showNextFact, 3000);
+ 
