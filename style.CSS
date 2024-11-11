@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('Prompt\ 👉Bouquet\ of\ white\ lilies\ lying\ on\ white….jpg');
+    background-size: cover;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+}
+
+header {
+    background-color: #ffd1a9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    animation: bounceIn 1s ease;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #ff6f61;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.song-btn {
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.song-btn:hover {
+    background-color: #ff8a71;
+}
+
+.about, .gallery, .fun-facts, .messages {
+    margin: 20px 0;
+}
+
+.gallery .photos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.gallery .photos img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.fun-facts {
+    background-color: #f7e2d5;
+    padding: 15px;
+    border-radius: 8px;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1em;
+    color: #555;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounceIn {
+    0%, 100% { transform: scale(0.9); }
+    50% { transform: scale(1); }
+}
